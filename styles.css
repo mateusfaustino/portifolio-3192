@@ -1,0 +1,155 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-header {
+    background-color: white;
+    height: 80px;
+}
+
+.intro-header nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: inherit;
+   padding: 0 18px;
+}
+
+.intro-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 38px;
+}
+.intro-header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Intro Section */
+.intro-section {
+    background-color: #D8F0F1;
+    height: 570px;
+    margin-bottom: 128px;
+}
+.intro-section .container {
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+.intro-section .intro-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+.intro-section .intro-informations button {
+    background-color: #564787;
+    padding: 12px 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.intro-section .intro-informations button:hover {
+    background-color: #615195;
+}
+.intro-section .intro-informations button:active {
+    background-color: #564786;
+}
+
+.intro-section .intro-informations .icons {
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+    fill: black;
+}
+
+.intro-section img {
+    width: 300px;
+    height: 300px;
+    border: solid black 4px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.intro-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+.intro-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.work-section{
+    margin-left: 298px;
+    margin-right: 149px;
+}
+
+.work-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.work-item-wrapp{
+    display: flex;
+    flex-direction: column;
+    gap:128px;
+}
+
+.work-item{
+   display: flex;
+   gap:32px;
+}
+
+.work-thumb{
+    background-color: red;
+    width: 429px;
+    height: 250px;
+}
+
+.work-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.work-info{
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.238%; /* 22.448px */
+}
+
+.work-action{
+    display: flex;
+    gap: 32px;
+}
+.work-link{
+    color: #000;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.238%; /* 22.448px */
+    text-decoration-line: underline;
+}
